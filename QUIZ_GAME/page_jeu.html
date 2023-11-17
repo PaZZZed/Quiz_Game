@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!—Zedzian Pawel 53204 B132->
+    <title>Jeu</title>
+    <link rel="stylesheet" href="style\style.css">
+    <link rel="stylesheet" href="style\footer.css">
+    <link rel="stylesheet" href="style\buttonGrid.css">
+
+    <script src="script\shuffle.js"></script>
+    <script src="script\data.js"></script>
+    <script src="script\gains.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="cashBackground ">
+    <h1 class="center">Qui veux gagner des €€€</h1>
+  </div>
+
+  <h2 class="center">
+    <span id="numeroQuestion">
+    </span>
+  </h2>
+
+  <h3 class="center">
+    <span id="qst"></span>
+  </h3>
+  <br>
+  <div id="grid" class="grille">
+
+
+    <button class="un" id="bn1" onclick="repo(1)"> </button>
+    <button class="deux" id="bn2" onclick="repo(2)"> </button>
+    <button class="trois" id="bn3" onclick="repo(3)"> </button>
+    <button class="quatre" id="bn4" onclick="repo(4)"> </button>
+
+  </div>
+  <br>
+
+  <h3 class="center">
+    <span id="data"></span>
+  </h3>
+
+  <div class="grilleNextPrevious">
+    <button class="menu" id="accueil" style="visibility:hidden" onclick="location.href = 'page_accueil.html';">
+      accueil </button>
+    <button class="next" id="vrai" style="visibility:hidden"> suivant </button>
+    <button class="previous" id="faux" style="visibility:hidden" onClick="location.reload();">réeseyer </button>
+  </div>
+
+  <h2>Gain:</h2>
+  <span class="grilleGain" id="gainGrille">
+    <div style="visibility:hidden" class="gain1" id="gain1">50€ </div>
+    <div style="visibility:hidden" class="gain2" id="gain2">100€ </div>
+    <div style="visibility:hidden" class="gain3" id="gain3">200€ </div>
+    <div style="visibility:hidden" class="gain4" id="gain4">500€ </div>
+    <div style="visibility:hidden" class="gain5" id="gain5">1000€ </div>
+    <div style="visibility:hidden" class="gain6" id="gain6">5000€ </div>
+    <div style="visibility:hidden" class="gain7" id="gain7">10000€ </div>
+    <div style="visibility:hidden" class="gain8" id="gain8">20000€ </div>
+    <div style="visibility:hidden" class="gain9" id="gain9">50000€</div>
+    <div style="visibility:hidden" class="gain10" id="gain10">1000000€ </div>
+  </span>
+
+  <div class="stop">
+    <button id="bn5" onclick="arreter()"> arreter la partie </button>
+    <button id="joker" style="visibility:hidden" onclick="joker()"> 50/50 </button>
+  </div>
+
+  <footer id="footer">
+    <div>
+      <span class="donForm" id="nouveauNom"></span>
+      <span class="donForm" id="nouveauPrenom"></span>
+      <span class="donForm" id="nouveauLogin"></span>
+      <span class="donForm" id="nouveauProf"></span>
+    </div>
+  </footer>
+  <script type="text/javascript" src="script\java.js"></script>
+
+</body>
+
+</html>

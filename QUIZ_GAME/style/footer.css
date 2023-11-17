@@ -1,0 +1,15 @@
+#footer {
+  position: absolute;
+  text-align: center;
+  height: 50px;
+ 
+  bottom: 0px;
+  left: 500px;
+  right: 500px;
+  background-color: DarkSlateGray;
+}
+
+.donForm {
+  color: aliceblue;
+  font-size: 120%;
+}

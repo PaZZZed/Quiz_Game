@@ -1,0 +1,153 @@
+.grille {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.un {
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 150%;
+  background-color: beige;
+  border-color: black;
+}
+
+.deux {
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 150%;
+  background-color: beige;
+  border-color: black;
+}
+
+.trois {
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 150%;
+  background-color: beige;
+  border-color: black;
+}
+
+.quatre {
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 150%;
+  background-color: beige;
+  border-color: black;
+}
+
+.grilleNextPrevious {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.next {
+  border-radius: 30px;
+  padding: 10px;
+  width: 250px;
+  font-size: 100%;
+  background-color: beige;
+  border-color: black;
+}
+
+.previous {
+  border-radius: 30px;
+  padding: 10px;
+  width: 250px;
+  font-size: 100%;
+  background-color: beige;
+  border-color: black;
+}
+
+.menu {
+  border-radius: 30px;
+  padding: 10px;
+  width: 250px;
+  font-size: 100%;
+  background-color: beige;
+  border-color: black;
+}
+
+.stop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stop button {
+  border-radius: 30px;
+  padding: 10px;
+  width: 250px;
+  font-size: 100%;
+  background-color: beige;
+  border-color: black;
+}
+
+.grilleGain {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  border: 1px solid darkgreen;
+}
+
+.gain1 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain2 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain3 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain4 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain5 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain6 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain7 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain8 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain9 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
+
+.gain10 {
+  padding: 10px;
+  width: 60px;
+  font-size: 100%;
+}
